@@ -11,7 +11,7 @@ def priority(lines):
   for line in lines:
     length = len(line)//2
     first, second = set(line[:length]), set(line[length:])
-    letters = first.intersection(second)
+    letters = first & second
     score += sum([priorities.index(i) for i in letters])
   return score    
 

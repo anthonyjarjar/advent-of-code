@@ -32,8 +32,6 @@ def top_3_calories(lines):
     else:
       curr_sum += int(line)
 
-  print(sorted(elves))
-
   return sum(sorted(elves)[-3:])
 
 
