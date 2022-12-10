@@ -19,7 +19,6 @@ def function(list):
 
         if ((int(arr1[0]) <= int(arr1[2])) and (int(arr1[1]) >= int(arr1[3]))) or ((int(arr1[0]) >= int(arr1[2])) and (int(arr1[1]) <= int(arr1[3]))):
             index += 1
-            print(arr1)
         else:
             pass
 
